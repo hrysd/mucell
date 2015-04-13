@@ -69,6 +69,7 @@
 #![no_std]
 #![feature(no_std, unsafe_destructor, optin_builtin_traits)]
 #![feature(core, collections)]
+#![feature(negate_unsigned)]
 #![warn(bad_style, unused, missing_docs)]
 
 #[macro_use] extern crate core;
